@@ -10,6 +10,9 @@ gem 'sass-rails', '>= 6'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  # ***** 以下を追加 *****
+  gem 'pry-byebug'
+  # ***** 以上を追加 *****
 end
 
 group :development do
